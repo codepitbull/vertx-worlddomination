@@ -1,0 +1,15 @@
+{
+
+  "main":"groovy:de.codepitbull.worlddomination.mcp.MainVerticle",
+
+  "description":"UI for the master",
+  "licenses": ["The Apache Software License Version 2.0"],
+  "author": "Jochen Mader",
+  "deploys": "io.vertx~mod-web-server~2.0.0-final",
+
+  "keywords": ["MCP"],
+  "homepage": "",
+
+  "auto-redeploy": true
+
+}

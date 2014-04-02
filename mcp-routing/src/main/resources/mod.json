@@ -1,0 +1,14 @@
+{
+
+  "main":"groovy:de.codepitbull.worlddomination.routing.RoutingStarterVerticle",
+
+  "description":"Module to control slaves",
+  "licenses": ["The Apache Software License Version 2.0"],
+  "author": "Jochen Mader",
+
+  "keywords": ["ROUTING"],
+  "homepage": "",
+
+  "auto-redeploy": true
+
+}

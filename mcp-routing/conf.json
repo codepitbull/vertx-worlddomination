@@ -1,0 +1,5 @@
+// Example JSON config file
+
+{
+  "web_root": "/Users/jmader/Documents/3_development/vcs/github_pflanzenmoerder/vertx-lejos/mcp-module/web"
+}

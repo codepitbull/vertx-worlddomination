@@ -1,0 +1,16 @@
+apply from: "../gradle/vertx.gradle"
+
+dependencies {
+  provided "org.codehaus.groovy:groovy-all:$groovyVersion"
+  provided "io.vertx:lang-groovy:$groovyLangModVersion@jar"
+  compile "com.github.spullara.mustache.java:compiler:0.8.14"
+}
+
+test {
+}
+
+task copyToLib(type: Copy) {
+    into "$buildDir/output/lib"
+    from configurations.runtime
+}
+build.dependsOn copyToLib

@@ -1,0 +1,9 @@
+apply from: "../gradle/vertx.gradle"
+
+dependencies {
+  compile "org.codehaus.groovy:groovy-all:$groovyVersion"
+  compile "io.vertx:lang-groovy:$groovyLangModVersion@jar"
+}
+
+test {
+}

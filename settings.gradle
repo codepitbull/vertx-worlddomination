@@ -1,0 +1,1 @@
+include 'mcp', 'mcp-controller', 'mcp-routing', 'mcp-slave', 'mcp-mustache'

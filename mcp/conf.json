@@ -1,0 +1,9 @@
+{
+    "port": 9000,
+    "route_matcher": true,
+    "static_files": true,
+    "bridge": true,
+    "inbound_permitted": [{"address":"robots.status"},{"address":"robots.command"}],
+    "outbound_permitted": [{"address":"robots.status"},{"address":"robots.announce"},{"address":"robots.disconnect"}],
+    "web_root": "/Users/jmader/Documents/3_development/vcs/github_pflanzenmoerder/vertx-lejos/mcp/web"
+}
