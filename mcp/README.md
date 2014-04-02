@@ -22,5 +22,5 @@ Known commands are:
 
 ```
 bin/vertx runMod de.codepitbull.mcp~mcp-module~1.0.0-final -conf conf.json -cluster
-bin/vertx runMod de.codepitbull.mcp~mcp-module~1.0.0-final -conf /Users/jmader/Documents/3_development/vcs/github_codepitbull/vertx-lejos/mcp/conf.json -cluster
+bin/vertx runMod de.codepitbull.mcp~mcp-module~1.0.0-final -conf /Users/jmader/Documents/3_development/vcs/github_codepitbull/vertx-worlddomination/mcp/conf.json -cluster
 ```
