@@ -1,13 +1,12 @@
 {
 
-  "main":"groovy:de.codepitbull.worlddomination.mcp.mustache.MainVerticle",
+  "main":"de.codepitbull.lejos.slave.verticle.MainVerticle",
 
   "description":"Module to control slaves",
   "licenses": ["The Apache Software License Version 2.0"],
   "author": "Jochen Mader",
-  "deploys": "io.vertx~mod-web-server~2.0.0-final",
 
-  "keywords": ["mustache"],
+  "keywords": ["MCP"],
   "homepage": "",
 
   "auto-redeploy": true
